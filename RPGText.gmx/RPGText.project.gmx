@@ -10,12 +10,16 @@
     <sprite>sprites\spr_crate</sprite>
     <sprite>sprites\spr_grass</sprite>
     <sprite>sprites\spr_rubbleCrate</sprite>
+    <sprite>sprites\spr_floor</sprite>
+    <sprite>sprites\spr_Pillar</sprite>
     <sprite>sprites\spr_leftWall</sprite>
+    <sprite>sprites\spr_tutorialHelp</sprite>
     <sprite>sprites\spr_bottomWall</sprite>
     <sprite>sprites\spr_rightWall</sprite>
     <sprite>sprites\sprite_Mob</sprite>
   </sprites>
   <backgrounds name="background">
+    <background>background\background2</background>
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
@@ -25,6 +29,7 @@
   <objects name="objects">
     <object>objects\obj_crate</object>
     <object>objects\obj_basic</object>
+    <object>objects\obj_Pillar</object>
     <object>objects\obj_bottomWall</object>
     <object>objects\obj_rubbleCrate</object>
     <object>objects\obj_grass</object>
@@ -34,7 +39,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
-    <room>rooms\rm_basic</room>
+    <room>rooms\rm_FirstEncounter</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
